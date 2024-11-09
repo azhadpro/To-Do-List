@@ -67,14 +67,21 @@ li .delete {
     cursor: pointer;
 }
 
+/* Style the task list item */
 li {
-    display: flex;
-    justify-content: space-between;  /* Distribute space between task text and checkbox */
-    align-items: center;  /* Vertically align both elements */
+    list-style: none; /* Remove the default bullet points */
     margin: 10px 0;
-    font-size: 18px;
-} 
+}
 
+/* Make the task container a flex container */
+.task-container {
+    display: flex;
+    justify-content: space-between;  /* Space out the task text and checkbox */
+    align-items: center;  /* Vertically align both elements */
+    font-size: 18px;
+}
+
+/* Style the checkbox */
 input[type="checkbox"] {
-    margin-right: 20px;
+    margin-left: 10px;  /* Add space between task text and checkbox */
 }
