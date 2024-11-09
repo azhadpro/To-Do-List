@@ -14,6 +14,7 @@ body {
 }
 
 .todo-container {
+    font-family: 'Poppins', sans-serif;
     background-color: #ffffff26;
     padding: 20px;
     border-radius: 10px;
@@ -86,4 +87,15 @@ li {
 input[type="checkbox"] {
     margin-left: auto;  /* Add space between task text and checkbox */
 }
+
+/* Apply the Poppins font to the entire to-do list */
+#taskList {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Or if you want to apply it to the input and button as well */
+#taskInput, #addTaskButton {
+    font-family: 'Poppins', sans-serif;
+}
+
 
