@@ -66,3 +66,12 @@ li .delete {
     color: red;
     cursor: pointer;
 }
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
