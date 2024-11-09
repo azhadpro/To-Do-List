@@ -68,9 +68,12 @@ li .delete {
 }
 
 li {
+    display: flex;
+    justify-content: space-between;  /* Distribute space between task text and checkbox */
+    align-items: center;  /* Vertically align both elements */
     margin: 10px 0;
     font-size: 18px;
-}
+} 
 
 input[type="checkbox"] {
     margin-right: 10px;
