@@ -17,7 +17,7 @@ function addTask() {
 
         // Create delete button
         const deleteButton = document.createElement('span');
-        deleteButton.textContent = "✖";
+        deleteButton.textContent = "✔";
         deleteButton.classList.add('delete');
         
         // Append delete button to list item
