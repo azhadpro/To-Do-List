@@ -1,4 +1,4 @@
-// Select the necessary elements
+// Select elements from the DOM
 const taskInput = document.getElementById('taskInput');
 const addTaskButton = document.getElementById('addTaskButton');
 const taskList = document.getElementById('taskList');
@@ -11,15 +11,26 @@ function addTask() {
     if (taskText !== "") {
         // Create a new list item for the task
         const listItem = document.createElement('li');
-        listItem.textContent = taskText;
+
+        // Create a div container to hold the task text and checkbox
+        const taskContainer = document.createElement('div');
+        taskContainer.classList.add('task-container');
+
+        // Create the task text element
+        const taskTextElement = document.createElement('span');
+        taskTextElement.textContent = taskText;
 
         // Create a checkbox for the task
         const checkBox = document.createElement('input');
         checkBox.type = 'checkbox';
         checkBox.classList.add('checkbox');
 
-        // Add checkbox to the list item
-        listItem.insertBefore(checkBox, listItem.firstChild);
+        // Append the task text and checkbox to the task container
+        taskContainer.appendChild(taskTextElement);
+        taskContainer.appendChild(checkBox);
+
+        // Append the task container to the list item
+        listItem.appendChild(taskContainer);
 
         // Append the new list item to the task list
         taskList.appendChild(listItem);
