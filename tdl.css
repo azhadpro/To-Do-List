@@ -68,32 +68,27 @@ li .delete {
     cursor: pointer;
 }
 
-/* Style the task list item */
 li {
-    list-style: none; /* Remove the default bullet points */
+    list-style: none; 
     margin: 10px 0;
 }
 
-/* Make the task container a flex container */
 .task-container {
     display: flex;
-    justify-content: space-between;  /* Space out the task text and checkbox */
-    align-items: center;  /* Vertically align both elements */
+    justify-content: space-between;  
+    align-items: center;  
     font-size: 18px;
     width: 100%;
 }
 
-/* Style the checkbox */
 input[type="checkbox"] {
-    margin-left: auto;  /* Add space between task text and checkbox */
+    margin-left: auto;  
 }
 
-/* Apply the Poppins font to the entire to-do list */
 #taskList {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Or if you want to apply it to the input and button as well */
 #taskInput, #addTaskButton {
     font-family: 'Poppins', sans-serif;
 }
