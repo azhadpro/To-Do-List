@@ -1,3 +1,4 @@
+console.log("JavaScript is running");
 // Select elements
 const taskInput = document.getElementById('taskInput');
 const addTaskButton = document.getElementById('addTaskButton');
