@@ -79,6 +79,7 @@ li {
     justify-content: space-between;  /* Space out the task text and checkbox */
     align-items: center;  /* Vertically align both elements */
     font-size: 18px;
+    width: 100%;
 }
 
 /* Style the checkbox */
