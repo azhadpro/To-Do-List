@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #fbc3c3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,10 +14,10 @@ body {
 }
 
 .todo-container {
-    background-color: white;
+    background-color: #ffffff26;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 9px 0px 6px rgba(0, 0, 0, 0.2);
     width: 300px;
     text-align: center;
 }
